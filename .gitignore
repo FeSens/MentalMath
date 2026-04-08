@@ -1,0 +1,23 @@
+node_modules/
+dist/
+.next/
+.turbo/
+coverage/
+playwright-report/
+playwright/.auth/
+test-results/
+
+.env
+.env.local
+.env.*.local
+!.env.example
+
+*.tsbuildinfo
+
+# Logs (keep the directory, ignore the files)
+logs/*.log
+!logs/.gitkeep
+.DS_Store
+
+# Keep experiments log tracked
+!experiments.tsv
